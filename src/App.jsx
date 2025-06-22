@@ -1,3 +1,4 @@
+
 import Navbar from "./components/Navbar";
 import NotificationBar from "./NotificationBar";
 import Hero from "./components/Hero";
@@ -5,19 +6,21 @@ import Section from "./components/Section";
 import ImageCarousel from "./components/ImageCarousel";
 import Footer from "./components/Footer";
 
+import iphone15 from './iphone15.jpg';
+import macbook from './macbook.jpg';
+import ipad from './ipad.jpg';
 
 function App() {
   return (
     <>
-    <NotificationBar />
+      <NotificationBar />
       <Navbar />
       <Hero />
 
-      {/* Product Sections */}
       <Section
         title="iPhone 15 Pro"
         subtitle="Titanium. So strong. So light. So Pro."
-        image="./src/iphone15.jpg"
+        image={iphone15}
         dark={true}
       />
 
@@ -26,7 +29,7 @@ function App() {
           <Section
             title="MacBook Air"
             subtitle="Supercharged by M2."
-            image="./src/macbook.jpg"
+            image={macbook}
             dark={false}
           />
         </div>
@@ -34,14 +37,13 @@ function App() {
           <Section
             title="iPad Pro"
             subtitle="Lovable. Drawable. Magical."
-            image="./src/ipad.jpg"
+            image={ipad}
             dark={false}
           />
         </div>
       </div>
-      
-      <ImageCarousel />
 
+      <ImageCarousel />
       <Footer />
     </>
   );
