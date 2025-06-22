@@ -5,9 +5,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const images = [
-  "/image1.jpg",
-  "/image2.jpg",
-  "/image3.jpg"
+  ".public/image1.jpg",
+  ".public/image2.jpg",
+  ".public/image3.jpg"
 ];
 
 export default function ImageCarousel() {
