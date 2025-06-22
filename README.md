@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # react-vite-apple
 >>>>>>> 8ae1764d5bd4fd64e672da7a66b5534fb03f94de
+=======
+# react-apple-clone
+>>>>>>> 611d7c28f20586791fc2c25ff22079c4a82107d2
