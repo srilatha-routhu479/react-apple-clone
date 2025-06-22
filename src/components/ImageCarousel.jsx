@@ -1,13 +1,12 @@
-// src/components/ImageCarousel.jsx
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
 const images = [
-  "./public/image1.jpg",
-  "./public/image2.jpg",
-  "./public/image3.jpg"
+  import.meta.env.BASE_URL + "image1.jpg",
+  import.meta.env.BASE_URL + "image2.jpg",
+  import.meta.env.BASE_URL + "image3.jpg"
 ];
 
 export default function ImageCarousel() {
